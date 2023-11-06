@@ -1,0 +1,31 @@
+.bg-custom{ background-color: #141618; }
+
+.table-dark > tbody > tr > td, .table-dark > thead > tr > th, .table-dark > tfoot > tr > td{
+    background-color: #141618;
+    border-color: #FFFFFF14;
+    padding: .5rem 1.5rem;
+}
+
+.form-control.bg-dark::placeholder{
+    color: #FFFFFF40;
+}
+
+.submenu-link{
+    transition: all .2s ease-in-out;
+}
+
+.submenu-link:hover{
+    background-color: #141618;
+}
+
+.submenu-link.active{
+    background-color: #141618;
+}
+
+.modal-header, .modal-footer{
+    border-color: #FFFFFF14;
+}
+
+.page-link.bg-custom:hover, .page-link.bg-custom:focus{
+    color: #000 !important;
+}

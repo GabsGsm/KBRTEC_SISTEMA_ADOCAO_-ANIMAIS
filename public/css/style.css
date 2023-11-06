@@ -1,0 +1,66 @@
+*{ box-sizing: border-box; }
+
+body{
+    color: #3E3E3E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: #3E3E3E;
+    text-decoration: none;
+}
+
+input[type="radio"]{
+    border-color: #3E3E3E;
+}
+
+input[disabled]{
+    background-color: #CDCDCD !important;
+    border-color: #CDCDCD !important;
+}
+
+.bg-custom{
+    background-color: #006AB0;
+}
+
+.bg-custom-light{
+    background-color: #DFDFDF;
+}
+
+.btn-custom{
+    background-color: #006AB0;
+    color: #FFF;
+}
+
+.btn-custom:hover{
+    background-color: #FF7373;
+    color: #FFF;
+}
+
+.btn-custom-2{
+    background-color: #FF7373;
+    color: #FFF;
+}
+
+.btn-custom-2:hover{
+    background-color: #006AB0;
+    color: #FFF;
+}
+
+.destaque{
+    color: #FF7373;
+}
+
+.bowlby-one{
+    font-family: 'Bowlby One', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+}
+
+.fs-md{
+    font-size: .9rem;
+}
+
+.fs-sm{
+    font-size: .825rem;
+}
